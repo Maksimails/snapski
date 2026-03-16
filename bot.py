@@ -30,7 +30,7 @@ from telegram import (
 from telegram.ext import (
     Application, CommandHandler, CallbackQueryHandler,
     MessageHandler, PreCheckoutQueryHandler,
-    ContextTypes, filters,
+    ContextTypes, filters, ApplicationBuilder,
 )
 from supabase import create_client, Client
 
